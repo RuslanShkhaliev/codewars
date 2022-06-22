@@ -2,11 +2,10 @@ export const createSpiral = (N) => {
 	if (N === 1) {
 		return [[1]];
 	}
-	if (N < 1 || Number.isNaN(N) || !Number.isInteger(N)) {
+	if (typeof N !== 'number') {
 		return [];
 	}
 
-	const size = N ** 2;
 	const matrix = Array(N)
 		.fill(0)
 		.map(() =>
