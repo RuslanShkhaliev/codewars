@@ -1,0 +1,12 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "solutions of kata",
+  "repository": "git@github.com:RuslanShkhaliev/codewars.git",
+  "author": "Ruslan Shkhaliev",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1"
+  }
+}
